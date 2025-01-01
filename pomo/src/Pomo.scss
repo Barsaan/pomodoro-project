@@ -1,0 +1,145 @@
+body {
+  background-color: #0F1318;
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+  background: url("file:///C:/Users/vasud/OneDrive/Desktop/Pictures/mount-mont-blanc-covered-snow-reflecting-water-evening-chamonix-france%201.png");
+  background-repeat: no-repeat, repeat;
+background-size: cover;   
+
+}
+
+.tab-buttons button {
+  padding: 8px 16px 8px 16px;
+  border: 1px solid #46505f;
+  border-radius: 30px;
+  align-items: center;
+  background: transparent;
+  color: #CBD5E0;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.38%;
+  font-family: sans-serif;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  
+}
+
+.scroll-img-sec {
+  text-align: center;
+}
+
+.main-time {
+  font-weight: 800;
+  line-height: 120px;
+  letter-spacing: -01.2%;
+  font-size: 100px;
+  color: white;
+padding-left: 20px;
+padding-right: 20px;
+margin: 0;
+}
+
+.timer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+
+.control-sec {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.choose-project {
+  color: #C9C9C9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: sans-serif;
+ margin: 10px;
+}
+
+.create-project-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pause-btn {
+  cursor: pointer;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 55px;
+  font-weight: bold;
+  width: 54px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.btn-restart {
+  background: none;
+  font-weight: 800;
+  color: white;
+  border: none;
+ cursor: pointer;
+}
+
+.restart-btn-sec {
+  display: flex;
+  align-items: center;
+}
+
+.tab-buttons>Button.active-tab {
+  background-color: #126196;
+  color: #fff;
+  border-radius: 24px;
+  border-color: #206a9c;
+}
+
+.tab-buttons button {
+  cursor: pointer;
+}
+
+.mask {
+  mask-type: alpha;
+}
+
+#slider2:hover {
+  animation: sliderr 7s linear infinite;
+  position: absolute;
+} 
+
+@keyframes sliderr {
+  0% {
+   transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(360px);
+  }
+  
+}
+
+
+.scroll-img-sec{
+  cursor: pointer;
+}
+
